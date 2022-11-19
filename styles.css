@@ -103,3 +103,50 @@ header {
     font-size: 14px;
     font-weight: bold;
 }
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 12px;
+    flex-wrap: wrap;
+    background-color: white;
+    color: Black;
+    margin: 0px;
+    padding-bottom: 48px;
+    max-width: 1000px;
+    min-width: 500px;
+    flex-shrink: 0 1 auto;
+}
+
+.content-title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    padding: 12px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid #3882F6;
+}
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #1F2937;
+}
