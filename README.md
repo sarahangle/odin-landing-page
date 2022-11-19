@@ -1,1 +1,1 @@
-# odin0landing-page
+# odin-landing-page
