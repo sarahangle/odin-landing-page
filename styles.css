@@ -222,3 +222,13 @@ header {
     font-size: 16px;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+    background-color: #1F2937;
+    color: white;
+}
